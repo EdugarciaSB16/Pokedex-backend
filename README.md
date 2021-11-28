@@ -23,7 +23,7 @@ To start the API (from the same root directory where the repo was cloned):
   npm run seeds
   npm run dev
   ```
-To start the React App open a new terminal tab or window and go to full-stack-code-test directory then:
+To start the React App open a new terminal tab or window and go to pokedex-frontend directory then:
   ```
   cd pokedex-frontend
   npm install
