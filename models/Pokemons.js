@@ -1,3 +1,8 @@
+/**
+ * Modelo de datos de los pokémons
+ * 
+ */
+// Dependencias
 const mongoose = require('mongoose');
 
 const pokemonScheme = mongoose.Schema({

@@ -1,6 +1,14 @@
+/**
+ * Configuración para insertar los pokémons a la base de datos
+ * Ejecutar el comando npm run seeds
+ */
+
+// Dependencias
 const mongoose = require('mongoose');
+// Modelos
 const Pokemons = require('../models/Pokemons');
 const pokemons_data = require('../data/pokemons');
+// Configuraciones
 require('dotenv').config();
 require('../config/db.config');
 

@@ -1,3 +1,8 @@
+/**
+ * Configuración de la base de datos MongoDB
+ * 
+ */
+// Dependencias
 const mongoose = require('mongoose');
 
 const MONGODB_URI =

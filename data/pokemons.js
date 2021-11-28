@@ -1,6 +1,6 @@
 const pokemons = [
     {
-        number: '001',
+        number: '1',
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/bulbasaur.png',
             large: 'https://img.pokemondb.net/artwork/bulbasaur.jpg',
@@ -18,17 +18,19 @@ const pokemons = [
         speed: 45,
         next_evolution: [
             {
-                num: '002',
+                number: '2',
                 name: 'Ivysaur',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/ivysaur.gif',
             },
             {
-                num: '003',
+                number: '3',
                 name: 'Venusaur',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/venusaur.gif',
             },
         ],
     },
     {
-        number: '002',
+        number: '2',
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/ivysaur.png',
             large: 'https://img.pokemondb.net/artwork/ivysaur.jpg',
@@ -46,19 +48,21 @@ const pokemons = [
         speed: 60,
         prev_evolution: [
             {
-                num: '001',
+                number: '1',
                 name: 'Bulbasaur',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif',
             },
         ],
         next_evolution: [
             {
-                num: '003',
+                number: '3',
                 name: 'Venusaur',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/venusaur.gif',
             },
         ],
     },
     {
-        number: '003',
+        number: '3',
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/venusaur.png',
             large: 'https://img.pokemondb.net/artwork/venusaur.jpg',
@@ -76,17 +80,14 @@ const pokemons = [
         speed: 80,
         prev_evolution: [
             {
-                num: '001',
-                name: 'Bulbasaur',
-            },
-            {
-                num: '002',
+                number: '2',
                 name: 'Ivysaur',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/ivisaur.gif',
             },
         ],
     },
     {
-        number: '004',
+        number: '4',
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/charmander.png',
             large: 'https://img.pokemondb.net/artwork/charmander.jpg',
@@ -104,17 +105,14 @@ const pokemons = [
         speed: 65,
         next_evolution: [
             {
-                num: '005',
+                number: '5',
                 name: 'Charmeleon',
-            },
-            {
-                num: '006',
-                name: 'Charizard',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/charmeleon.gif',
             },
         ],
     },
     {
-        number: '005',
+        number: '5',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/charmeleon.png',
@@ -133,19 +131,21 @@ const pokemons = [
         speed: 80,
         prev_evolution: [
             {
-                num: '004',
+                number: '4',
                 name: 'Charmander',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/charmander.gif',
             },
         ],
         next_evolution: [
             {
-                num: '006',
+                number: '6',
                 name: 'Charizard',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/charizard.gif',
             },
         ],
     },
     {
-        number: '006',
+        number: '6',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/charizard.png',
@@ -164,17 +164,14 @@ const pokemons = [
         speed: 100,
         prev_evolution: [
             {
-                num: '004',
-                name: 'Charmander',
-            },
-            {
-                num: '005',
+                number: '5',
                 name: 'Charmeleon',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/charmeleon.gif',
             },
         ],
     },
     {
-        number: '007',
+        number: '7',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/squirtle.png',
@@ -193,17 +190,14 @@ const pokemons = [
         speed: 43,
         next_evolution: [
             {
-                num: '008',
+                number: '8',
                 name: 'Wartortle',
-            },
-            {
-                num: '009',
-                name: 'Blastoise',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/wartortle.gif',
             },
         ],
     },
     {
-        number: '008',
+        number: '8',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/wartortle.png',
@@ -222,19 +216,21 @@ const pokemons = [
         speed: 58,
         prev_evolution: [
             {
-                num: '007',
+                number: '7',
                 name: 'Squirtle',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/squirtle.gif',
             },
         ],
         next_evolution: [
             {
-                num: '009',
+                number: '9',
                 name: 'Blastoise',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/blastoise.gif',
             },
         ],
     },
     {
-        number: '009',
+        number: '9',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/blastoise.png',
@@ -253,17 +249,14 @@ const pokemons = [
         speed: 78,
         prev_evolution: [
             {
-                num: '007',
-                name: 'Squirtle',
-            },
-            {
-                num: '008',
+                number: '8',
                 name: 'Wartortle',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/wartortle.gif',
             },
         ],
     },
     {
-        number: '010',
+        number: '10',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/caterpie.png',
@@ -282,17 +275,14 @@ const pokemons = [
         speed: 45,
         next_evolution: [
             {
-                num: '011',
+                number: '11',
                 name: 'Metapod',
-            },
-            {
-                num: '012',
-                name: 'Butterfree',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/metapod.gif',
             },
         ],
     },
     {
-        number: '011',
+        number: '11',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/metapod.png',
@@ -311,19 +301,21 @@ const pokemons = [
         speed: 30,
         prev_evolution: [
             {
-                num: '010',
+                number: '10',
                 name: 'Caterpie',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/caterpie.gif',
             },
         ],
         next_evolution: [
             {
-                num: '012',
+                number: '12',
                 name: 'Butterfree',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/butterfree.gif',
             },
         ],
     },
     {
-        number: '012',
+        number: '12',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/butterfree.png',
@@ -342,17 +334,14 @@ const pokemons = [
         speed: 70,
         prev_evolution: [
             {
-                num: '010',
-                name: 'Caterpie',
-            },
-            {
-                num: '011',
+                number: '11',
                 name: 'Metapod',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/metapod.gif',
             },
         ],
     },
     {
-        number: '013',
+        number: '13',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/weedle.png',
@@ -371,17 +360,14 @@ const pokemons = [
         speed: 50,
         next_evolution: [
             {
-                num: '014',
+                number: '14',
                 name: 'Kakuna',
-            },
-            {
-                num: '015',
-                name: 'Beedrill',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/kakuna.gif',
             },
         ],
     },
     {
-        number: '014',
+        number: '14',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/kakuna.png',
@@ -400,19 +386,21 @@ const pokemons = [
         speed: 35,
         prev_evolution: [
             {
-                num: '013',
+                number: '13',
                 name: 'Weedle',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/weedle.gif',
             },
         ],
         next_evolution: [
             {
-                num: '015',
+                number: '15',
                 name: 'Beedrill',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/beedrill.gif',
             },
         ],
     },
     {
-        number: '015',
+        number: '15',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/beedrill.png',
@@ -431,17 +419,14 @@ const pokemons = [
         speed: 75,
         prev_evolution: [
             {
-                num: '013',
-                name: 'Weedle',
-            },
-            {
-                num: '014',
+                number: '14',
                 name: 'Kakuna',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/kakuna.gif',
             },
         ],
     },
     {
-        number: '016',
+        number: '16',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/pidgey.png',
@@ -460,17 +445,14 @@ const pokemons = [
         speed: 56,
         next_evolution: [
             {
-                num: '017',
-                name: 'Pidgeotto',
-            },
-            {
-                num: '018',
+                number: '18',
                 name: 'Pidgeot',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/pidgeot.gif',
             },
         ],
     },
     {
-        number: '017',
+        number: '17',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/pidgeotto.png',
@@ -489,19 +471,21 @@ const pokemons = [
         speed: 71,
         prev_evolution: [
             {
-                num: '016',
+                number: '16',
                 name: 'Pidgey',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/pidgeotto.gif',
             },
         ],
         next_evolution: [
             {
-                num: '018',
+                number: '18',
                 name: 'Pidgeot',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/pidgeot.gif',
             },
         ],
     },
     {
-        number: '018',
+        number: '18',
         evolution: {
             name: 'Mega Pidgeot',
         },
@@ -522,17 +506,14 @@ const pokemons = [
         speed: 121,
         prev_evolution: [
             {
-                num: '016',
-                name: 'Pidgey',
-            },
-            {
-                num: '017',
+                number: '17',
                 name: 'Pidgeotto',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/pidgeotto.gif',
             },
         ],
     },
     {
-        number: '019',
+        number: '19',
         evolution: {
             name: 'Alolan Rattata',
         },
@@ -553,13 +534,14 @@ const pokemons = [
         speed: 72,
         next_evolution: [
             {
-                num: '020',
+                number: '20',
                 name: 'Raticate',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/raticate.gif',
             },
         ],
     },
     {
-        number: '020',
+        number: '20',
         evolution: {
             name: 'Alolan Raticate',
         },
@@ -580,13 +562,14 @@ const pokemons = [
         speed: 77,
         prev_evolution: [
             {
-                num: '019',
+                number: '19',
                 name: 'Rattata',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/rattata.gif',
             },
         ],
     },
     {
-        number: '021',
+        number: '21',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/spearow.png',
@@ -605,13 +588,14 @@ const pokemons = [
         speed: 70,
         next_evolution: [
             {
-                num: '022',
+                number: '22',
                 name: 'Fearow',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/fearow.gif',
             },
         ],
     },
     {
-        number: '022',
+        number: '22',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/fearow.png',
@@ -630,13 +614,14 @@ const pokemons = [
         speed: 100,
         prev_evolution: [
             {
-                num: '021',
+                number: '21',
                 name: 'Spearow',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/spearow.gif',
             },
         ],
     },
     {
-        number: '023',
+        number: '23',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/ekans.png',
@@ -655,13 +640,14 @@ const pokemons = [
         speed: 55,
         next_evolution: [
             {
-                num: '024',
+                number: '24',
                 name: 'Arbok',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/arbok.gif',
             },
         ],
     },
     {
-        number: '024',
+        number: '24',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/arbok.png',
@@ -680,13 +666,14 @@ const pokemons = [
         speed: 80,
         prev_evolution: [
             {
-                num: '023',
+                number: '23',
                 name: 'Ekans',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/ekans.gif',
             },
         ],
     },
     {
-        number: '025',
+        number: '25',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/pikachu.png',
@@ -705,13 +692,14 @@ const pokemons = [
         speed: 90,
         next_evolution: [
             {
-                num: '026',
+                number: '26',
                 name: 'Raichu',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/raichu.gif',
             },
         ],
     },
     {
-        number: '026',
+        number: '26',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/raichu.png',
@@ -730,13 +718,14 @@ const pokemons = [
         speed: 110,
         prev_evolution: [
             {
-                num: '025',
+                number: '25',
                 name: 'Pikachu',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/pikachu.gif',
             },
         ],
     },
     {
-        number: '027',
+        number: '27',
         evolution: {
             name: 'Alolan Sandshrew',
         },
@@ -757,13 +746,14 @@ const pokemons = [
         speed: 40,
         next_evolution: [
             {
-                num: '028',
+                number: '28',
                 name: 'Sandslash',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/sandslash.gif',
             },
         ],
     },
     {
-        number: '028',
+        number: '28',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/sandslash.png',
@@ -782,19 +772,20 @@ const pokemons = [
         speed: 65,
         prev_evolution: [
             {
-                num: '027',
+                number: '27',
                 name: 'Sandshrew',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/sandshrew.gif',
             },
         ],
     },
     {
-        number: '029',
+        number: '29',
 
         sprites: {
-            normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/nidoran♀.png',
-            large: 'https://img.pokemondb.net/artwork/nidoran♀.jpg',
+            normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/nidoran-f.png',
+            large: 'https://img.pokemondb.net/artwork/nidoran-f.jpg',
             animated:
-                'https://img.pokemondb.net/sprites/black-white/anim/normal/nidoran♀.gif',
+                'https://img.pokemondb.net/sprites/black-white/anim/normal/nidoran-f.gif',
         },
         name: 'Nidoran♀',
         type: ['Poison'],
@@ -807,17 +798,14 @@ const pokemons = [
         speed: 41,
         next_evolution: [
             {
-                num: '030',
+                number: '30',
                 name: 'Nidorina',
-            },
-            {
-                num: '031',
-                name: 'Nidoqueen',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/nidoran-f.gif',
             },
         ],
     },
     {
-        number: '030',
+        number: '30',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/nidorina.png',
@@ -836,19 +824,21 @@ const pokemons = [
         speed: 56,
         prev_evolution: [
             {
-                num: '029',
+                number: '29',
                 name: 'Nidoran(Female)',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/nidoran-f.gif',
             },
         ],
         next_evolution: [
             {
-                num: '031',
+                number: '31',
                 name: 'Nidoqueen',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/nidoqueen.gif',
             },
         ],
     },
     {
-        number: '031',
+        number: '31',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/nidoqueen.png',
@@ -867,23 +857,25 @@ const pokemons = [
         speed: 76,
         prev_evolution: [
             {
-                num: '029',
+                number: '29',
                 name: 'Nidoran(Female)',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/nidoqueen.gif',
             },
             {
-                num: '030',
+                number: '30',
                 name: 'Nidorina',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/nidorina.gif',
             },
         ],
     },
     {
-        number: '032',
+        number: '32',
 
         sprites: {
-            normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/nidoran♂.png',
-            large: 'https://img.pokemondb.net/artwork/nidoran♂.jpg',
+            normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/nidoran-m.png',
+            large: 'https://img.pokemondb.net/artwork/nidoran-m.jpg',
             animated:
-                'https://img.pokemondb.net/sprites/black-white/anim/normal/nidoran♂.gif',
+                'https://img.pokemondb.net/sprites/black-white/anim/normal/nidoran-m.gif',
         },
         name: 'Nidoran♂',
         type: ['Poison'],
@@ -896,17 +888,14 @@ const pokemons = [
         speed: 50,
         next_evolution: [
             {
-                num: '033',
-                name: 'Nidorino',
-            },
-            {
-                num: '034',
+                number: '34',
                 name: 'Nidoking',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/nidoking.gif',
             },
         ],
     },
     {
-        number: '033',
+        number: '33',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/nidorino.png',
@@ -925,19 +914,21 @@ const pokemons = [
         speed: 65,
         prev_evolution: [
             {
-                num: '032',
+                number: '32',
                 name: 'Nidoran(Male)',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/nidoran-m.gif',
             },
         ],
         next_evolution: [
             {
-                num: '034',
+                number: '34',
                 name: 'Nidoking',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/Nidoking.gif',
             },
         ],
     },
     {
-        number: '034',
+        number: '34',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/nidoking.png',
@@ -956,17 +947,14 @@ const pokemons = [
         speed: 85,
         prev_evolution: [
             {
-                num: '032',
-                name: 'Nidoran(Male)',
-            },
-            {
-                num: '033',
+                number: '33',
                 name: 'Nidorino',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/nidorino.gif',
             },
         ],
     },
     {
-        number: '035',
+        number: '35',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/clefairy.png',
@@ -985,13 +973,14 @@ const pokemons = [
         speed: 35,
         next_evolution: [
             {
-                num: '036',
+                number: '36',
                 name: 'Clefable',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/clefable.gif',
             },
         ],
     },
     {
-        number: '036',
+        number: '36',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/clefable.png',
@@ -1010,13 +999,14 @@ const pokemons = [
         speed: 60,
         prev_evolution: [
             {
-                num: '035',
+                number: '35',
                 name: 'Clefairy',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/clefable.gif',
             },
         ],
     },
     {
-        number: '037',
+        number: '37',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/vulpix.png',
@@ -1035,13 +1025,14 @@ const pokemons = [
         speed: 65,
         next_evolution: [
             {
-                num: '038',
+                number: '38',
                 name: 'Ninetales',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/ninetales.gif',
             },
         ],
     },
     {
-        number: '038',
+        number: '38',
         evolution: {
             name: 'Alolan Ninetales',
         },
@@ -1062,13 +1053,14 @@ const pokemons = [
         speed: 109,
         prev_evolution: [
             {
-                num: '037',
+                number: '37',
                 name: 'Vulpix',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/vulpix.gif',
             },
         ],
     },
     {
-        number: '039',
+        number: '39',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/jigglypuff.png',
@@ -1087,13 +1079,14 @@ const pokemons = [
         speed: 20,
         next_evolution: [
             {
-                num: '040',
+                number: '40',
                 name: 'Wigglytuff',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/wigglytuff.gif',
             },
         ],
     },
     {
-        number: '040',
+        number: '40',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/wigglytuff.png',
@@ -1112,13 +1105,14 @@ const pokemons = [
         speed: 45,
         prev_evolution: [
             {
-                num: '039',
+                number: '39',
                 name: 'Jigglypuff',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/jigglypuff.gif',
             },
         ],
     },
     {
-        number: '041',
+        number: '41',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/zubat.png',
@@ -1137,13 +1131,14 @@ const pokemons = [
         speed: 55,
         next_evolution: [
             {
-                num: '042',
+                number: '42',
                 name: 'Golbat',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/golbat.gif',
             },
         ],
     },
     {
-        number: '042',
+        number: '42',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/golbat.png',
@@ -1162,13 +1157,14 @@ const pokemons = [
         speed: 90,
         prev_evolution: [
             {
-                num: '041',
+                number: '41',
                 name: 'Zubat',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/zubat.gif',
             },
         ],
     },
     {
-        number: '043',
+        number: '43',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/oddish.png',
@@ -1187,13 +1183,14 @@ const pokemons = [
         speed: 30,
         prev_evolution: [
             {
-                num: '041',
+                number: '41',
                 name: 'Zubat',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/zubat.gif',
             },
         ],
     },
     {
-        number: '044',
+        number: '44',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/gloom.png',
@@ -1212,19 +1209,21 @@ const pokemons = [
         speed: 40,
         prev_evolution: [
             {
-                num: '043',
+                number: '43',
                 name: 'Oddish',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/oddish.gif',
             },
         ],
         next_evolution: [
             {
-                num: '045',
+                number: '45',
                 name: 'Vileplume',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/vileplume.gif',
             },
         ],
     },
     {
-        number: '045',
+        number: '45',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/vileplume.png',
@@ -1243,17 +1242,14 @@ const pokemons = [
         speed: 50,
         prev_evolution: [
             {
-                num: '043',
-                name: 'Oddish',
-            },
-            {
-                num: '044',
+                number: '44',
                 name: 'Gloom',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/gloom.gif',
             },
         ],
     },
     {
-        number: '046',
+        number: '46',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/paras.png',
@@ -1272,13 +1268,14 @@ const pokemons = [
         speed: 25,
         next_evolution: [
             {
-                num: '047',
+                number: '47',
                 name: 'Parasect',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/parasect.gif',
             },
         ],
     },
     {
-        number: '047',
+        number: '47',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/parasect.png',
@@ -1297,13 +1294,14 @@ const pokemons = [
         speed: 30,
         prev_evolution: [
             {
-                num: '046',
+                number: '46',
                 name: 'Paras',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/paras.gif',
             },
         ],
     },
     {
-        number: '048',
+        number: '48',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/venonat.png',
@@ -1322,13 +1320,14 @@ const pokemons = [
         speed: 45,
         next_evolution: [
             {
-                num: '049',
+                number: '49',
                 name: 'Venomoth',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/venomoth.gif',
             },
         ],
     },
     {
-        number: '049',
+        number: '49',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/venomoth.png',
@@ -1347,13 +1346,14 @@ const pokemons = [
         speed: 90,
         prev_evolution: [
             {
-                num: '048',
+                number: '48',
                 name: 'Venonat',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/venonat.gif',
             },
         ],
     },
     {
-        number: '050',
+        number: '50',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/diglett.png',
@@ -1372,13 +1372,14 @@ const pokemons = [
         speed: 95,
         next_evolution: [
             {
-                num: '051',
+                number: '51',
                 name: 'Dugtrio',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/dugtrio.gif',
             },
         ],
     },
     {
-        number: '051',
+        number: '51',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/dugtrio.png',
@@ -1397,13 +1398,14 @@ const pokemons = [
         speed: 120,
         prev_evolution: [
             {
-                num: '050',
+                number: '50',
                 name: 'Diglett',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/diglett.gif',
             },
         ],
     },
     {
-        number: '052',
+        number: '52',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/meowth.png',
@@ -1422,13 +1424,14 @@ const pokemons = [
         speed: 90,
         next_evolution: [
             {
-                num: '053',
+                number: '53',
                 name: 'Persian',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/persian.gif',
             },
         ],
     },
     {
-        number: '053',
+        number: '53',
         evolution: {
             name: 'Alolan Persian',
         },
@@ -1449,13 +1452,14 @@ const pokemons = [
         speed: 115,
         prev_evolution: [
             {
-                num: '052',
+                number: '52',
                 name: 'Meowth',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/meowth.gif',
             },
         ],
     },
     {
-        number: '054',
+        number: '54',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/psyduck.png',
@@ -1474,13 +1478,14 @@ const pokemons = [
         speed: 55,
         next_evolution: [
             {
-                num: '055',
+                number: '55',
                 name: 'Golduck',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/golduck.gif',
             },
         ],
     },
     {
-        number: '055',
+        number: '55',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/golduck.png',
@@ -1499,13 +1504,14 @@ const pokemons = [
         speed: 85,
         prev_evolution: [
             {
-                num: '054',
+                number: '54',
                 name: 'Psyduck',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/psyduck.gif',
             },
         ],
     },
     {
-        number: '056',
+        number: '56',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/mankey.png',
@@ -1524,13 +1530,14 @@ const pokemons = [
         speed: 70,
         next_evolution: [
             {
-                num: '057',
+                number: '57',
                 name: 'Primeape',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/primeape.gif',
             },
         ],
     },
     {
-        number: '057',
+        number: '57',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/primeape.png',
@@ -1549,13 +1556,14 @@ const pokemons = [
         speed: 95,
         prev_evolution: [
             {
-                num: '056',
+                number: '56',
                 name: 'Mankey',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/mankey.gif',
             },
         ],
     },
     {
-        number: '058',
+        number: '58',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/growlithe.png',
@@ -1574,13 +1582,14 @@ const pokemons = [
         speed: 60,
         next_evolution: [
             {
-                num: '059',
+                number: '59',
                 name: 'Arcanine',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/arcanine.gif',
             },
         ],
     },
     {
-        number: '059',
+        number: '59',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/arcanine.png',
@@ -1599,13 +1608,14 @@ const pokemons = [
         speed: 95,
         prev_evolution: [
             {
-                num: '058',
+                number: '58',
                 name: 'Growlithe',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/growlithe.gif',
             },
         ],
     },
     {
-        number: '060',
+        number: '60',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/poliwag.png',
@@ -1624,17 +1634,14 @@ const pokemons = [
         speed: 90,
         next_evolution: [
             {
-                num: '061',
+                number: '61',
                 name: 'Poliwhirl',
-            },
-            {
-                num: '062',
-                name: 'Poliwrath',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/poliwhirl.gif',
             },
         ],
     },
     {
-        number: '061',
+        number: '61',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/poliwhirl.png',
@@ -1653,19 +1660,21 @@ const pokemons = [
         speed: 90,
         prev_evolution: [
             {
-                num: '060',
+                number: '60',
                 name: 'Poliwag',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/poliwag.gif',
             },
         ],
         next_evolution: [
             {
-                num: '062',
+                number: '62',
                 name: 'Poliwrath',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/poliwrath.gif',
             },
         ],
     },
     {
-        number: '062',
+        number: '62',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/poliwrath.png',
@@ -1684,17 +1693,14 @@ const pokemons = [
         speed: 70,
         prev_evolution: [
             {
-                num: '060',
-                name: 'Poliwag',
-            },
-            {
-                num: '061',
+                number: '61',
                 name: 'Poliwhirl',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/poliwrath.gif',
             },
         ],
     },
     {
-        number: '063',
+        number: '63',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/abra.png',
@@ -1713,17 +1719,14 @@ const pokemons = [
         speed: 70,
         next_evolution: [
             {
-                num: '064',
+                number: '64',
                 name: 'Kadabra',
-            },
-            {
-                num: '065',
-                name: 'Alakazam',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/kadabra.gif',
             },
         ],
     },
     {
-        number: '064',
+        number: '64',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/kadabra.png',
@@ -1740,12 +1743,16 @@ const pokemons = [
         sp_atk: 120,
         sp_def: 70,
         speed: 105,
+        next_evolution: [
+            {
+                number: '65',
+                name: 'Alakazam',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/alakazam.gif',
+            },
+        ],
     },
     {
-        number: '065',
-        evolution: {
-            name: 'Mega Alakazam',
-        },
+        number: '65',
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/alakazam.png',
             large: 'https://img.pokemondb.net/artwork/alakazam.jpg',
@@ -1763,17 +1770,14 @@ const pokemons = [
         speed: 150,
         prev_evolution: [
             {
-                num: '063',
-                name: 'Abra',
-            },
-            {
-                num: '064',
+                number: '64',
                 name: 'Kadabra',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/kadabra.gif',
             },
         ],
     },
     {
-        number: '066',
+        number: '66',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/machop.png',
@@ -1792,17 +1796,14 @@ const pokemons = [
         speed: 35,
         next_evolution: [
             {
-                num: '067',
+                number: '67',
                 name: 'Machoke',
-            },
-            {
-                num: '068',
-                name: 'Machamp',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/machoke.gif',
             },
         ],
     },
     {
-        number: '067',
+        number: '67',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/machoke.png',
@@ -1821,19 +1822,21 @@ const pokemons = [
         speed: 45,
         prev_evolution: [
             {
-                num: '066',
+                number: '66',
                 name: 'Machop',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/machop.gif',
             },
         ],
         next_evolution: [
             {
-                num: '068',
+                number: '68',
                 name: 'Machamp',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/machamp.gif',
             },
         ],
     },
     {
-        number: '068',
+        number: '68',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/machamp.png',
@@ -1852,17 +1855,14 @@ const pokemons = [
         speed: 55,
         prev_evolution: [
             {
-                num: '066',
-                name: 'Machop',
-            },
-            {
-                num: '067',
+                number: '67',
                 name: 'Machoke',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/machoke.gif',
             },
         ],
     },
     {
-        number: '069',
+        number: '69',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/bellsprout.png',
@@ -1881,17 +1881,14 @@ const pokemons = [
         speed: 40,
         next_evolution: [
             {
-                num: '070',
+                number: '70',
                 name: 'Weepinbell',
-            },
-            {
-                num: '071',
-                name: 'Victreebel',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/weepinbell.gif',
             },
         ],
     },
     {
-        number: '070',
+        number: '70',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/weepinbell.png',
@@ -1910,19 +1907,21 @@ const pokemons = [
         speed: 55,
         prev_evolution: [
             {
-                num: '069',
+                number: '69',
                 name: 'Bellsprout',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/bellsprout.gif',
             },
         ],
         next_evolution: [
             {
-                num: '071',
+                number: '71',
                 name: 'Victreebel',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/victreebel.gif',
             },
         ],
     },
     {
-        number: '071',
+        number: '71',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/victreebel.png',
@@ -1941,17 +1940,14 @@ const pokemons = [
         speed: 70,
         prev_evolution: [
             {
-                num: '069',
-                name: 'Bellsprout',
-            },
-            {
-                num: '070',
+                number: '70',
                 name: 'Weepinbell',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/weepinbell.gif',
             },
         ],
     },
     {
-        number: '072',
+        number: '72',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/dratini.png',
@@ -1970,17 +1966,14 @@ const pokemons = [
         speed: 50,
         next_evolution: [
             {
-                num: '073',
+                number: '73',
                 name: 'Dragonair',
-            },
-            {
-                num: '074',
-                name: 'Dragonite',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/dragonair.gif',
             },
         ],
     },
     {
-        number: '073',
+        number: '73',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/dragonair.png',
@@ -1999,19 +1992,21 @@ const pokemons = [
         speed: 70,
         prev_evolution: [
             {
-                num: '072',
+                number: '72',
                 name: 'Dratini',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/dratini.gif',
             },
         ],
         next_evolution: [
             {
-                num: '074',
+                number: '74',
                 name: 'Dragonite',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/dragonite.gif',
             },
         ],
     },
     {
-        number: '074',
+        number: '74',
 
         sprites: {
             normal: 'https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/dragonite.png',
@@ -2030,15 +2025,17 @@ const pokemons = [
         speed: 80,
         prev_evolution: [
             {
-                num: '072',
+                number: '72',
                 name: 'Dratini',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/dratini.gif',
             },
             {
-                num: '073',
+                number: '73',
                 name: 'Dragonair',
+                img: 'https://img.pokemondb.net/sprites/black-white/anim/normal/dragonair.gif',
             },
         ],
-    }
+    },
 ];
 
 module.exports = pokemons;

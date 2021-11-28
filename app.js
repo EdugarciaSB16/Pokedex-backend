@@ -1,8 +1,13 @@
+/**
+ * Módulo principal de la aplicación
+ * 
+ */
+// Dependencias
 const express = require('express');
 const cors = require('cors');
 const createError = require('http-errors');
 const logger = require('morgan');
-
+// Configuraciones
 require('dotenv').config();
 require('./config/db.config');
 
