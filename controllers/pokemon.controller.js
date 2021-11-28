@@ -23,6 +23,7 @@ module.exports.getPokemons = (req, res, next) => {
             .catch(() => next);
     } else {
         Pokemons.find({})
+            .limit(45)
             .then((pokemon) => {
                 res.status(201).json(pokemon);
             })
